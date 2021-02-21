@@ -1,5 +1,5 @@
 var cacheName = 'petstore-v1';
-var cacheFiles = ['index.html','product.js','petstore.webmanifest','images/cat.png','images/store-icon.png'];
+var cacheFiles = ['index.html','products.js','petstore.webmanifest','images/cat.png','images/store-icon.png'];
 self.addEventListener('install', (e) => 
     {console.log('[Service Worker] Install');  
     e.waitUntil(    
